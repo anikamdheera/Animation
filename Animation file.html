@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    
+   <style>
+   @keyframes box{
+              0%{
+                 background-color:red;
+                 top:0px;
+                 left:0px;
+              }
+              25%{
+                  background-color:yellow;
+                  top:0px;
+                  left:100px;
+              }
+              50%{
+                 background-color:blue;
+                 top:100px;
+                 left:100px;
+              }
+              75%{
+                 background-color:green;
+                 top:100px;
+                 left:0px;
+              }
+              100%{
+                   background-color:red;
+                   top:0px;
+                   left:0px;
+              }
+   }
+    .box{
+         width:50px;
+         Height:50px;
+         background-color:red;
+         position:relative;
+         Animation:box 5s linear -1s infinite alternate-reverse;
+    }
+   </style>
+</head>
+
+<body>
+
+</body>
+<div class="box"></div>
+</html>

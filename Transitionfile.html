@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style>
+    *{
+       margin:0;
+       padding:0;
+       box-sizing:border-box;
+    }
+      div{
+           width:100vw;
+           height:100vh;
+           position:relative;
+           display:grid;
+           place-items:center;
+           Transition:border 3s ease;
+          
+      }
+     .images{
+             width:300px;
+             height:auto;
+             border:2px solid yellow;
+           
+     }
+  
+   .border2{
+              width:350px;
+              height:200px;
+              border:2px solid blue;
+   }
+  .border3{
+            width:400px;
+            height:250px;
+            border:2px solid green;
+           
+  }
+  div:hover{
+            
+            border-style:dotted;
+  }
+ .images:hover{
+             border-style:dashed;
+  }
+    </style>
+</head>
+
+<body>
+ 
+</body>
+<div>
+  <div class="border3">
+  <div class="border2">
+  <img src="Deadpool-logo.png" alt="loading" class="images">
+  </div>
+  </div>
+</div>
+</html>
